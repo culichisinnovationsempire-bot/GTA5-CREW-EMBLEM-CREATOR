@@ -1,0 +1,36 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid #555;
+  background: #222;
+}
+
+.row {
+  margin: 15px 0;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 8px;
+  background: #333;
+  color: #eee;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+textarea {
+  width: 80%;
+  background: #222;
+  color: #0f0;
+  border: 1px solid #555;
+  padding: 10px;
+}
