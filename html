@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GTA V Crew Emblem SVG Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>GTA V Crew Emblem SVG Generator</h2>
+
+  <div class="row">
+    <canvas id="canvas" width="256" height="256"></canvas>
+  </div>
+
+  <div class="row">
+    <button id="clearBtn">Clear</button>
+    <button id="exportSvgBtn">Export SVG</button>
+
+    <label>
+      Stroke color:
+      <input type="color" id="strokeColor" value="#00ff00" />
+    </label>
+
+    <label>
+      Stroke width:
+      <input type="number" id="strokeWidth" value="3" min="1" max="20" />
+    </label>
+  </div>
+
+  <div class="row">
+    <label>
+      Load image (optional for tracing):
+      <input type="file" id="imageInput" accept="image/*" />
+    </label>
+  </div>
+
+  <div class="row">
+    <textarea id="svgOutput" rows="12" cols="80"
+      placeholder="SVG code will appear here..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
