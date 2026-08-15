@@ -1,0 +1,8 @@
+gta-emblem-svg-generator/
+│
+├── index.html
+├── style.css
+├── script.js
+├── LICENSE
+├── .gitignore
+└── README.md
